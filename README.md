@@ -1,5 +1,5 @@
 \# ALINA SIP Phone Library
-
+\ Don't judge me too harshly, the project is not complete, and this is my first time posting it
 
 
 Профессиональная библиотека SIP-телефонии для ESP32 с поддержкой Ethernet (WT32-ETH01).
@@ -48,5 +48,5 @@ lib\_deps =
 
 &nbsp;   https://github.com/SergKush-83/ALINA-SIP-Phone.git
 
-\ Don't judge me too harshly, the project is not complete, and this is my first time posting it
+
 
