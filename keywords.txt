@@ -1,0 +1,47 @@
+#######################################
+# Syntax Coloring Map ALINA-SIP-Phone
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+ALINASIPPhone	KEYWORD1
+DeviceManager	KEYWORD1
+EnhancedNetworkManager	KEYWORD1
+EnhancedSIPClient	KEYWORD1
+RTPManager	KEYWORD1
+AudioManager	KEYWORD1
+ConfigManager	KEYWORD1
+WebInterface	KEYWORD1
+SystemMonitor	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+begin	KEYWORD2
+process	KEYWORD2
+makeCall	KEYWORD2
+hangupCall	KEYWORD2
+answerCall	KEYWORD2
+rejectCall	KEYWORD2
+registerSIP	KEYWORD2
+unregisterSIP	KEYWORD2
+isRegistered	KEYWORD2
+getCallStatus	KEYWORD2
+getNetworkStatus	KEYWORD2
+getSIPStatus	KEYWORD2
+getActiveCalls	KEYWORD2
+printStatus	KEYWORD2
+printSystemInfo	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+SIP_PORT	LITERAL1
+MAX_SIP_CALLS	LITERAL1
+SIP_STATE_DISCONNECTED	LITERAL1
+SIP_STATE_REGISTERED	LITERAL1
+CALL_STATE_IDLE	LITERAL1
+CALL_STATE_ACTIVE	LITERAL1
+SYSTEM_STATE_OK	LITERAL1
+SYSTEM_STATE_ERROR	LITERAL1

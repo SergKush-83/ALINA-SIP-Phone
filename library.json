@@ -1,0 +1,43 @@
+{
+  "name": "ALINA-SIP-Phone",
+  "version": "1.0.0",
+  "description": "Professional SIP Phone Library for ESP32 with Ethernet support",
+  "keywords": ["sip", "voip", "telephony", "esp32", "ethernet", "wt32-eth01", "audio", "rtp"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SergKush-83/ALINA-SIP-Phone.git"
+  },
+  "authors": [
+    {
+      "name": "Kush",
+      "email": "mogila.fok@gmail.com",
+      "url": "https://github.com/alinadev"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/SergKush-83/ALINA-SIP-Phone",
+  "frameworks": "arduino",
+  "platforms": ["espressif32"],
+  "dependencies": [
+    {
+      "name": "AsyncUDP",
+      "version": ">=1.1.0"
+    },
+    {
+      "owner": "espressif",
+      "name": "arduino-esp32",
+      "version": ">=2.0.0"
+    }
+  ],
+  "export": {
+    "include": [
+      "src/*",
+      "examples/*"
+    ],
+    "exclude": [
+      "test",
+      "*.bat",
+      "*.sh"
+    ]
+  }
+}
